@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Selenium_Sample</RootNamespace>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.13.1"/>
+    <PackageReference Include="NUnit3TestAdapter" Version="3.16.1"/>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0"/>
+    <PackageReference Include="Selenium.WebDriver" Version="4.0.0-beta1"/>
+    <PackageReference Include="WebDriverManager" Version="2.11.1"/>
+    <PackageReference Include="SeleniumExtras.WaitHelpers" Version="1.0.1"/>
+    <PackageReference Include="PageFactoryCore" Version="1.0.2"/>
+    <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0"/>
+    <PackageReference Include="DotNetSeleniumExtras.PageObjects" Version="3.11.0"/>
+    <PackageReference Include="DotNetSeleniumExtras.PageObjects.Core" Version="4.0.0-beta1"/>
+    <PackageReference Include="DotNetSeleniumExtras.PageObjects.Core.Linq" Version="1.0.0"/>
+    <PackageReference Include="ExtentReports" Version="4.1.0"/>
+    <PackageReference Include="Json.Net" Version="1.0.25"/>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3"/>
+  </ItemGroup>
+</Project>
